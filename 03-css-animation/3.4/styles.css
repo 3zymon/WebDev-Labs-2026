@@ -1,0 +1,36 @@
+div{
+    width: 200px;
+    height: 100px;
+    position: relative;
+}
+
+.traditional{
+    background-color: rgb(226, 158, 48);
+    animation: moveTraditional 3s infinite;
+}
+
+@keyframes moveTraditional{
+    0% {
+        left: 0;
+    }
+    100%{
+        left: 300px;
+    }
+
+}
+
+.transformation{
+    background-color: rgb(32, 211, 160);
+    animation: moveTransform 3s infinite;
+}
+
+@keyframes moveTransform{
+    0%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(300px);
+        opacity: 0.1;
+    }
+}

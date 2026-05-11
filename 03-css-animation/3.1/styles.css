@@ -1,0 +1,15 @@
+div{
+    width: 200px;
+    height: 200px;
+    padding: 40px;
+    text-align: center;
+    background-color: #901a11;
+    color: #f0f8ff;
+    box-sizing: border-box;
+
+    transition: 0.3s ease;
+}
+
+div:hover{
+    background-color: #36c1c1;
+}

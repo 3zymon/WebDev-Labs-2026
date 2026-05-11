@@ -1,0 +1,17 @@
+div{
+    padding: 16px;
+    border: 4px solid black;
+    margin: 24px;
+    width: 200px;
+    height: 100px;
+}
+
+.red{
+    background-color: #c16969;
+    box-sizing: border-box;
+}
+
+.green{
+    background-color: #8dc993;
+    box-sizing: content-box;
+}

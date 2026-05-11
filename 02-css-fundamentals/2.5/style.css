@@ -1,0 +1,9 @@
+div{
+    display: inline;
+    background-color: #989898;
+}
+
+span{
+    display: block;
+    background-color: #fff93e;
+}

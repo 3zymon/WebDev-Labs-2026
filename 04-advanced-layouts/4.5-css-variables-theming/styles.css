@@ -1,0 +1,36 @@
+:root{
+    --main-color: rgb(28, 50, 58);
+    --secondary-color: rgb(103, 147, 163);
+    --text-color: white;
+    --standard-padding: 20px;
+    --header-height: 60px;
+
+
+}
+
+body{
+    margin: 0;
+    color: var(--text-color);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    height: var(--header-height);
+    padding: var(--standard-padding);
+}
+
+main{
+    background-color: var(--secondary-color);
+    padding: var(--standard-padding);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+    padding: var(--standard-padding);
+}

@@ -1,0 +1,29 @@
+@keyframes przesuwanieObracanie{
+    0%{
+        transform: translateX(0) rotate(0deg);
+    }
+    25%{
+        transform: translateX(100px) rotate(180deg);
+    }
+    50%{
+        transform: translateX(0) rotate(360deg);
+    }
+    75%{
+        transform: translateX(400px) rotate(180deg);
+    }
+    100%{
+        transform: translateX(0) rotate(360deg);
+    }
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: #5449b3;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box;
+
+    animation: przesuwanieObracanie 4s infinite;
+}

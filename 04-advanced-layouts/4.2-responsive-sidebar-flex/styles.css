@@ -1,0 +1,26 @@
+.sidebar{
+    background-color: rgb(185, 185, 185);
+    padding: 20px;
+}
+
+.content{
+    background-color: rgb(233, 233, 233);
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+@media(min-width: 768px){
+    .container{
+        flex-direction: row;
+    }
+    .sidebar{
+        width: 200px;
+    }
+    .content{
+        flex-grow: 1;
+    }
+}

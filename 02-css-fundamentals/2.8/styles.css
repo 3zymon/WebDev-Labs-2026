@@ -1,0 +1,31 @@
+body{
+    background-color: #ead1b0;
+}
+
+.navLink{
+    background-color: #c20a0a;
+}
+
+.active{
+    background-color: #084f28;
+}
+
+h1{
+    color: rgb(32, 32, 157);
+}
+
+.paragraphSection{
+    background-color: #33d6d6;
+}
+
+.paragraphSection p{
+    background-color: #c20a0a;
+}
+
+ol+ol{
+    background-color: #ba7c09;
+}
+
+footer{
+    border: 2px solid black;
+}

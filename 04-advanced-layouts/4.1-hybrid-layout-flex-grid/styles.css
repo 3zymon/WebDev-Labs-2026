@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background-color: rgb(18, 18, 18);
+}
+
+header, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(64, 64, 64);
+    color:white;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+    padding: 20px;
+    background-color: #ffffff;
+
+}
+
+.item{
+    height: 80px;
+    background-color: rgb(228, 228, 228);
+    padding: 20px;
+    text-align: center;
+}
